@@ -30,7 +30,7 @@ func main() {
 
 	// Verifica se o conteúdo é igual a "true"
 	if content == "true" {
-		fmt.Println("O conteúdo do arquivo é 'true'.")
+		fmt.Printf("O conteúdo do arquivo é 'true': %s", content)
 	} else {
 		fmt.Println("O conteúdo do arquivo não é 'true'.")
 	}
